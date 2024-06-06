@@ -1,61 +1,56 @@
-# CySA-Learning-Project
+<h1>CySA+ Learning Project</h1>
 
-# CySA+ Learning Project
+<h2>Description</h2>
 
-Welcome to my documentation and learning project for Jason Dion's CySA+ Course on Udemy. This repository includes detailed notes, summaries, and key takeaways from each module and domain covered in the course.
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Domain 1: Threat Management](#domain-1-threat-management)
-  - [Module 1: Introduction to Threat Management](./Domain1/module1.md)
-  - [Module 2: Threat Intelligence](./Domain1/module2.md)
-- [Domain 2: Vulnerability Management](#domain-2-vulnerability-management)
-  - [Module 1: Vulnerability Assessment Techniques](./Domain2/module1.md)
-  - [Module 2: Remediation Strategies](./Domain2/module2.md)
-- [Domain 3: Cyber Incident Response](#domain-3-cyber-incident-response)
-  - [Module 1: Incident Response Process](./Domain3/module1.md)
-  - [Module 2: Forensic Analysis](./Domain3/module2.md)
-- [Domain 4: Security Architecture and Tool Sets](#domain-4-security-architecture-and-tool-sets)
-  - [Module 1: Security Frameworks](./Domain4/module1.md)
-  - [Module 2: Security Tools](./Domain4/module2.md)
 
-## Introduction
+<h2>Languages and Utilities Used</h2>
 
-This project aims to capture my understanding and insights gained from the CySA+ course, focusing on practical applications and key concepts essential for cybersecurity analysts.
+- <b>PowerShell</b> 
+- <b>Diskpart</b>
 
-## Domain 1: Threat Management
+<h2>Environments Used </h2>
 
-### Module 1: Introduction to Threat Management
+- <b>Windows 10</b> (21H2)
 
-- Overview of cyber threats and threat actors
-- Importance of threat intelligence
+<h2>Program walk-through:</h2>
 
-[Read more...](./Domain1/module1.md)
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
-## Domain 2: Vulnerability Management
-
-### Module 1: Vulnerability Assessment Techniques
-
-- Methods for identifying vulnerabilities
-- Tools and techniques for vulnerability scanning
-
-[Read more...](./Domain2/module1.md)
-
-## Domain 3: Cyber Incident Response
-
-### Module 1: Incident Response Process
-
-- Steps in incident response
-- Best practices for managing incidents
-
-[Read more...](./Domain3/module1.md)
-
-## Domain 4: Security Architecture and Tool Sets
-
-### Module 1: Security Frameworks
-
-- Overview of common security frameworks
-- Implementing security controls
-
-[Read more...](./Domain4/module1.md)
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
